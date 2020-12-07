@@ -4,6 +4,7 @@ import { Counter } from './features/counter/Counter';
 import './App.css';
 import Renderinput from './Renderinput';
 import FrameworkList from './FrameworkList';
+import UseEffectRender from './UseEffrectRender';
 
 function App() {
   const output = (text) => {
@@ -21,6 +22,7 @@ function App() {
         <Counter />
         <Renderinput outputConsole={output}/>
         <FrameworkList frameworks={data} />
+        <UseEffectRender/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
