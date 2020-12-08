@@ -1,7 +1,7 @@
 import React from 'react';
 import axios  from 'axios';
 
-function UseEffrectRender() {
+function UseEffectRender() {
   const [user, setUser] = React.useState(null);
   const fetchJson = async ()=>{
     const res = await axios.get("https://jsonplaceholder.typicode.com/users/1");
@@ -21,4 +21,4 @@ function UseEffrectRender() {
   )
 }
 
-export default UseEffrectRender
+export default UseEffectRender
