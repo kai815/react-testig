@@ -5,6 +5,7 @@ import './App.css';
 import Renderinput from './Renderinput';
 import FrameworkList from './FrameworkList';
 import UseEffectRender from './UseEffrectRender';
+import MockServer from './MockServer';
 
 function App() {
   const output = (text) => {
@@ -23,6 +24,7 @@ function App() {
         <Renderinput outputConsole={output}/>
         <FrameworkList frameworks={data} />
         <UseEffectRender/>
+        <MockServer />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
