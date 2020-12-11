@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from "axios";
 
-function MockServer() {
+const MockServer = () => {
   const [clicked, setClicked] = React.useState(false);
   const [username, setUsername] = React.useState("");
   const [error, setError] = React.useState("");
@@ -27,4 +27,4 @@ function MockServer() {
   )
 }
 
-export default MockServer
+export default MockServer;
