@@ -6,6 +6,7 @@ import Renderinput from './Renderinput';
 import FrameworkList from './FrameworkList';
 import UseEffectRender from './UseEffrectRender';
 import MockServer from './MockServer';
+import Redux from './Redux';
 
 function App() {
   const output = (text) => {
@@ -25,6 +26,7 @@ function App() {
         <FrameworkList frameworks={data} />
         <UseEffectRender/>
         <MockServer />
+        <Redux />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
